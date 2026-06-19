@@ -2,13 +2,14 @@
 //
 void setup()
 {
-  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
 }
 
 void loop()
 {
-  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+  delay(10000); // Wait for 1000 millisecond(s)
+  digitalWrite(9, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(8, LOW);
-  delay(100); // Wait for 1000 millisecond(s)
-}# led-blink
+}
+# led-blink
